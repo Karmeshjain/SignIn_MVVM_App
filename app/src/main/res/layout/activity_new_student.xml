@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/studentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="8dp"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/hint_word"
+        android:inputType="text"
+        android:layout_margin="@dimen/big_padding"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/CountryCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="8dp"
+        android:fontFamily="sans-serif-light"
+        android:hint="Country Code"
+        android:inputType="number"
+        android:layout_margin="@dimen/big_padding"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/PhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="8dp"
+        android:fontFamily="sans-serif-light"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:layout_margin="@dimen/big_padding"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:text="@string/button_save"
+        android:layout_margin="@dimen/big_padding"
+        android:textColor="@color/purple_200" />
+
+</LinearLayout>
